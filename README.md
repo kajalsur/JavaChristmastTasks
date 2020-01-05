@@ -19,7 +19,7 @@ else return false;
 ```
 #### Test Case 2-
 #### Test Case Description:
-Testing code to print out true or false return statements for returing a list of strings from a list of int's, however for multiples of 3 it must return "Fizz", and multiples of five it must return "Buzz". Whereas multiples of both three and five must return “FizzBuzz".
+Testing code to print out true or false return statements for returing a list of strings from a list of int's, however for multiples of 3 it must return "Fizz", and multiples of five it must return "Buzz". Whereas multiples of both three and five must return “FizzBuzz". Likewise 
 #### Test Data:
 ```
   public void divisibleBy()
