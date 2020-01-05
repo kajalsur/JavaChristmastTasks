@@ -19,7 +19,7 @@ else return false;
 ```
 #### Test Case 2-
 #### Test Case Description:
-Testing code to print out true or false return statements for returing a list of strings from a list of int's, however for multiples of 3 it must return "Fizz", and multiples of five it must return "Buzz". Whereas multiples of both three and five must return “FizzBuzz". Likewise 
+Testing code to print out true or false return statements for returing a list of strings from a list of int's, however for multiples of 3 it must return "Fizz", and multiples of five it must return "Buzz". Whereas multiples of both three and five must return “FizzBuzz".
 #### Test Data:
 ```
   public void divisibleBy()
@@ -45,6 +45,27 @@ The main class included two print out line for fizzBuzzGenerator, and therefore 
 ```
 System.out.println(fizzBuzzGenerator.FizzBuzz(1,16).toString());
 ```  
+#### Expected Result:
+```
+1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"
+```
+#### Actual Results:
+```
+1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"
+```
+#### Test Case 4-
+#### Test Case Description:
+Altering error of ("Buz") and inserting quotes " " around printed String for FizzBuzz, Fizz, and Buzz
+#### Test Data:
+```
+	{
+			if(divisibleBy(i, 3) && divisibleBy(i, 5)) fizzBuzzList.add("\"FizzBuzz\"");
+			else if (divisibleBy(i, 3)) fizzBuzzList.add("\"Fizz\"");
+			else if (divisibleBy(i, 5)) fizzBuzzList.add("\"Buzz\"");
+			else fizzBuzzList.add(Integer.toString(i));
+		}
+		return fizzBuzzList;
+```
 #### Expected Result:
 ```
 1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"
